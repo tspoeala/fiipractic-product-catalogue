@@ -7,10 +7,10 @@ Steps to follow to install this application:
 - install xampp and composer on your computer
 - rename .env.example to .env and add your correct database credentials
 - in the cmd/windows power shell run the following commands from the path of the project:
-    - php artisan migrate
-    - php artisan db:seed
     - composer install
     - npm install
+    - php artisan migrate
+    - php artisan db:seed
 - start the apache and mysql services from XAMPP Control Panel
 - from two different cmd windows get into the path of the project and run:
     - php artisan serve
